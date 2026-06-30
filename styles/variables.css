@@ -1,4 +1,21 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --bg-image: url(../images/cover-image-dark.png);
+  --bg-color: #000028;
+  --bg-image-lamp: url(../images/lamp.svg);
+  --name-color: #DB00FF;
+  --accent-color: #FF0070;
+  --section-title-color: #FF0070;
+  --color-dark: #000028;
+  --text-color: #F1B2CE;
+  --color-button: var(--accent-color);
+  --border-button-hover: 1px solid rgb(255, 0, 112, 0.4);
+  --border-decor: 1px solid var(--accent-color);
+  --section-padding: 50px 10px 0 10px;
+  --height-mobile: 668px;
+  --height-tablet: 1024px;
+  --height-comp: 768px;
+  --position-decor: 0.55em;
+  --position-span: 0.7em;
+  --display-span: flex;
+  /*--accent-color: #9a2f5d;*/
+}
